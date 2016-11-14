@@ -1,0 +1,1 @@
+1	user	$2a$10$mCEIJ8urGywVMgFXqgpZn.iPjcbIBwjFWJvxqcYPemr.TwuEk66ga	user@gmail.com	User		User	1

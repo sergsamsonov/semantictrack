@@ -1,0 +1,4 @@
+1	active	
+2	issued	\N
+3	accepted	\N
+4	closed	\N

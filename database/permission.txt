@@ -1,0 +1,6 @@
+1	ACRON	Permission to edit acronyms
+2	ADMIN	Permission to access administration panel
+3	EVAL	Permission to evaluation tools
+4	TICKBRW	Permission to search tickets
+5	TICKEDIT	Permission to edit tickets
+6	TICKCR	Permission to create tickets

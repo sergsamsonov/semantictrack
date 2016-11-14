@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">*********</property>
+        <property name="hibernate.connection.username">*********</property>
+        <property name="hibernate.connection.password">*********</property>
+        <mapping resource="acronyms.hbm.xml"/>
+        <mapping resource="groups.hbm.xml"/>
+        <mapping resource="group_permission.hbm.xml"/>
+        <mapping resource="lemmas.hbm.xml"/>
+        <mapping resource="permission.hbm.xml"/>
+        <mapping resource="systvariables.hbm.xml"/>
+        <mapping resource="tasks.hbm.xml"/>
+        <mapping resource="tickets.hbm.xml"/>
+        <mapping resource="ticketstat.hbm.xml"/>
+        <mapping resource="ticktypes.hbm.xml"/>
+        <mapping resource="users.hbm.xml"/>
+        <mapping resource="user_group.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

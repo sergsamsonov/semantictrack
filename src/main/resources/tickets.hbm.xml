@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bugtrack.entity.ticket" table="tickets">
+        <id column="Number" name="number" type="java.lang.Integer">
+            <generator class="assigned"/>
+        </id>
+        <property column="lemmasnum" name="lemmasnum" type="java.lang.Integer"/>
+        <property column="issuenum" name="issuenum" type="java.lang.Integer"/>
+        <property column="issdescnum" name="issdescnum" type="java.lang.Integer"/>
+        <property column="solutnum" name="solutnum" type="java.lang.Integer"/>
+        <property column="soldetnum" name="soldetnum" type="java.lang.Integer"/>
+        <property column="issue" name="issue" type="java.lang.String"/>
+        <property column="issuedescr" name="issuedescr" type="java.lang.String"/>
+        <property column="solution" name="solution" type="java.lang.String"/>
+        <property column="solutiondet" name="solutiondet" type="java.lang.String"/>
+        <property column="lemmas" name="lemmas" type="java.lang.String"/>
+        <property column="issuelem" name="issuelem" type="java.lang.String"/>
+        <property column="issdesclem" name="issdesclem" type="java.lang.String"/>
+        <property column="solutionlem" name="solutionlem" type="java.lang.String"/>
+        <property column="soldetlem" name="soldetlem" type="java.lang.String"/>
+        <property column="status" name="tickstat" type="java.lang.Integer"/>
+        <property column="ticktype" name="ticktype" type="java.lang.Integer"/>
+        <property column="task" name="task" type="java.lang.Integer"/>
+        <property column="user" name="user" type="java.lang.Integer"/>
+        <property column="responsible" name="responsible" type="java.lang.Integer"/>
+        <property column="sourcefiles" name="srcfiles" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>
